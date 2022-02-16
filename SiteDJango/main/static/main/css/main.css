@@ -1,0 +1,94 @@
+body {
+    background: #d7f5da;
+    font-family: Arbor;
+}
+
+@font-face {
+  font-family: "JoJo";
+  src: url("JOJO____.ttf");
+}
+
+@font-face {
+  font-family: "Arbor";
+  src: url("ofont.ru_Arbor.ttf");
+}
+
+navigation {
+    float: left;
+    background: #7fc986;
+    width: 20%;
+    padding: 2.5%;
+    height: 1000vh;
+    color: #000;
+    border-right: 5px solid #000;
+}
+
+navigation img {
+    width: 120px;
+}
+
+navigation .logo {
+    font-size: 33px;
+    font-family: "JoJo";
+    margin-left: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 6px;
+}
+
+navigation h3 {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+navigation a{
+    text-decoration:none;
+}
+
+navigation ul {list-style: none}
+navigation ul li {
+    color: #000;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+.buttonnav {
+    margin-left: -34px;
+}
+
+navigation ul li:hover, navigation ul a:hover {
+    color: #105e18;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+main .features {
+    float: left;
+    color: #000;
+    margin-top: 75px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1{font-size: 50px;}
+main .features p{
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 36.4%;
+    text-align: center;
+    color: #000;
+    background-color: #7fc986;
+}
+
+form {
+    margin-left: 29.5%;
+    width: 600px;
+    margin-top: 50px;
+}
